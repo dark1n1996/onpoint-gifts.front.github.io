@@ -1,0 +1,44 @@
+.shop
+    .shop-header
+        .shop-header__logo
+        .shop-header__name
+            |
+        a(href="./index.html")
+            .shop-header__out
+                |Выйти
+
+    .shop__stars-quantity
+        |У тебя 
+        span
+            |
+        |*
+
+    .shop-cards
+
+    .shop-popup
+        .shop-popup__wrapper
+            .shop-popup__text
+                |Выберите способ доставки
+            form
+                .form__wrapper
+                    span.form__text
+                        |СПОСОБ ДОСТАВКИ
+                    select.form__select(required name="name")
+                        option
+                            |Самовывоз 
+                        option
+                            |Доставка на дом
+                .form__wrapper
+                    span.form__text
+                        |АДРЕС
+                    input.form__input(type="text" name="address" placeholder="Введите адрес")
+                    span.form__error
+                button.form__button
+                    |Купить!
+                .form__server-error
+                .form__server-success 
+            .shop-popup__close
+                
+
+        
+

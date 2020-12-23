@@ -1,0 +1,362 @@
+.signup
+    .signup__title
+        |Регистрация
+    form.form(name="signup")
+        .form__wrapper
+            span.form__text
+                |ИМЯ ФАМИЛИЯ
+            select.form__select(required name="name")
+                option(hidden value='')
+                    |Выберите из списка
+                option
+                    |Максим Стрелец
+                option
+                    |Екатерина Троицкая
+                option
+                    |Илья Кулаков
+                option
+                    |Светлана Ананьева
+                option
+                    |Анастасия Пискунова
+                option
+                    |Эржена Бардуева
+                option
+                    |Ирина Шрамко
+                option
+                    |Екатерина Федорцова
+                option
+                    |Юлия Сиденко
+                option
+                    |Ирина Рудницкая
+                option
+                    |Марина Карчевская
+                option
+                    |Максим Гуляев
+                option
+                    |Ирина Колосова
+                option
+                    |Юлия Скоробогатова
+                option
+                    |Екатерина Коллерова
+                option
+                    |Алла Бадмаева
+                option
+                    |Анна Мареева
+                option
+                    |Оксана Осипова
+                option
+                    |Елена Давыдова
+                option
+                    |Антон Чеча
+                option
+                    |Анна Кирилова
+                option
+                    |Елена Буланцева
+                option
+                    |Андрей Кобельков
+                option
+                    |Дмитрий Кокорин
+                option
+                    |Николай Ракшин
+                option
+                    |Полина Золотова
+                option
+                    |Павел Горячкин
+                option
+                    |Мария Дряннова
+                option
+                    |Константин Согонов
+                option
+                    |Елена Белова
+                option
+                    |Иван Голосов
+                option
+                    |Елена Медведкова
+                option
+                    |Анна Козуб
+                option
+                    |Диана Сапожникова
+                option
+                    |Артем Уткин
+                option
+                    |Александр Моисеев
+                option
+                    |Александр Романов
+                option
+                    |Василий Закорючкин
+                option
+                    |Анна Рысухина
+                option
+                    |Екатерина Баранова
+                option
+                    |Ольга Карнаухова
+                option
+                    |Анастасия Лыкова
+                option
+                    |Алексей Бачаев
+                option
+                    |Александра Корелякова
+                option
+                    |Григорий Зданович
+                option
+                    |Лев Белоновский
+                option
+                    |Андрей Сельдюков
+                option
+                    |Ксения Баранова
+                option
+                    |Матвей Семенец
+                option
+                    |Дмитрий Мумренков
+                option
+                    |Никита Цапаев
+                option
+                    |Александр Борисов
+                option
+                    |Екатерина Глаткова
+                option
+                    |Андрей Карпенко
+                option
+                    |Владислав Плотников
+                option
+                    |Александра Васильева
+                option
+                    |Сергей Диков
+                option
+                    |Владислав Гейер
+                option
+                    |Денис Ковальских
+                option
+                    |Андрей Рябинин
+                option
+                    |Татьяна Гаврилова
+                option
+                    |Юлия Ефремова
+            .form__error
+        .form__wrapper
+            span.form__text
+                |EMAIL
+            input.form__input(required type="email" name="email" placeholder="Введите почту")
+            span.form__error
+        .form__wrapper
+            .form__text
+                |ПАРОЛЬ
+            input.form__input(required type="text" minlength="5" name="password" placeholder="Введите пароль")
+            span.form__error
+            button.form__button.form__button_off()
+                |Зарегистрироваться
+            .form__server-error
+        p.form__reg
+            |Зарегистрированы? 
+            span.form__span_signup.form__span
+                |Войти
+    .logo
+        
+.signin.signin_off
+    .signin__title
+        |Войти
+    form.form(name="signin")
+        .form__wrapper
+            span.form__text
+                |EMAIL
+            input.form__input(required type="email" name="email" placeholder="Введите почту")
+            span.form__error
+        .form__wrapper
+            span.form__text
+                |ПАРОЛЬ
+            input.form__input(required type="text" minlength="5" name="password" placeholder="Введите пароль")
+            span.form__error
+            button.form__button.form__button_signin.form__button_off
+                |Войти
+            .form__server-error   
+        span.form__reg
+            |Или 
+            span.form__span_signin.form__span
+                |Зарегистрироваться
+
+    .logo
+
+.gift.gift_off
+    .gift__title
+        |Выбирай кому даришь
+    .gift__stars
+        |Твой остаток звездочек: 
+        span
+            |
+        |*
+    .gift__logout
+        |Хотите выйти из профиля? 
+        span.gift__logout-span   
+            |Выйти
+    form.form(name="gift")
+        .form__wrapper
+            span.form__text
+                |ИМЯ ФАМИЛИЯ
+            select.form__select(required type="text" name="name" )
+                option(hidden value='')
+                    |Выберите из списка
+                option
+                    |Илья Кулаков
+                option
+                    |Светлана Ананьева
+                option
+                    |Анастасия Пискунова
+                option
+                    |Эржена Бардуева
+                option
+                    |Ирина Шрамко
+                option
+                    |Екатерина Федорцова
+                option
+                    |Юлия Сиденко
+                option
+                    |Ирина Рудницкая
+                option
+                    |Марина Карчевская
+                option
+                    |Максим Гуляев
+                option
+                    |Ирина Колосова
+                option
+                    |Юлия Скоробогатова
+                option
+                    |Екатерина Коллерова
+                option
+                    |Алла Бадмаева
+                option
+                    |Анна Мареева
+                option
+                    |Оксана Осипова
+                option
+                    |Елена Давыдова
+                option
+                    |Антон Чеча
+                option
+                    |Анна Кирилова
+                option
+                    |Елена Буланцева
+                option
+                    |Андрей Кобельков
+                option
+                    |Дмитрий Кокорин
+                option
+                    |Николай Ракшин
+                option
+                    |Полина Золотова
+                option
+                    |Павел Горячкин
+                option
+                    |Мария Дряннова
+                option
+                    |Константин Согонов
+                option
+                    |Елена Белова
+                option
+                    |Иван Голосов
+                option
+                    |Елена Медведкова
+                option
+                    |Анна Козуб
+                option
+                    |Диана Сапожникова
+                option
+                    |Артем Уткин
+                option
+                    |Александр Моисеев
+                option
+                    |Александр Романов
+                option
+                    |Василий Закорючкин
+                option
+                    |Анна Рысухина
+                option
+                    |Екатерина Баранова
+                option
+                    |Ольга Карнаухова
+                option
+                    |Анастасия Лыкова
+                option
+                    |Алексей Бачаев
+                option
+                    |Александра Корелякова
+                option
+                    |Григорий Зданович
+                option
+                    |Лев Белоновский
+                option
+                    |Андрей Сельдюков
+                option
+                    |Ксения Баранова
+                option
+                    |Матвей Семенец
+                option
+                    |Дмитрий Мумренков
+                option
+                    |Никита Цапаев
+                option
+                    |Александр Борисов
+                option
+                    |Екатерина Глаткова
+                option
+                    |Андрей Карпенко
+                option
+                    |Владислав Плотников
+                option
+                    |Александра Васильева
+                option
+                    |Сергей Диков
+                option
+                    |Владислав Гейер
+                option
+                    |Денис Ковальских
+                option
+                    |Андрей Рябинин
+                option
+                    |Татьяна Гаврилова
+                option
+                    |Юлия Ефремова
+            span.form__error
+        .form__wrapper
+            span.form__text
+                |КОМПЕТЕНЦИЯ
+            select.form__select(required type="text" name="competence" )
+                option(hidden disabled selected value='')
+                    |Выберите из списка
+                option
+                    |Эффективное взаимодействие
+                option
+                    |Работа в команде
+                option
+                    |Ориентация на результат
+                option
+                    |Развитие себя и команды
+                option
+                    |Непрерывные улучшения
+                option
+                    |Лидерство
+            span.form__error
+        .form__wrapper
+            span.form__text
+                |КОММЕНТАРИЙ
+            textarea.form__input(required type="text" name="comment" placeholder="Напишите комментарий")
+            span.form__error
+            button.form__button.form__button_off
+                |Отправить звёздочку!
+            .form__server-error
+            .gift__border
+            a.gift__onShop(href="./shop.html")
+                |Открыть onShop
+    
+    .logo
+
+.popup.popup__signup
+    .popup__wrapper       
+        p.popup__text
+            |Регистрация прошла успешно!
+        .popup__close
+
+.popup.popup__gift
+    .popup__wrapper       
+        p.popup__text
+            |Ура, твоя звёдочка отправлена!
+        .popup__close

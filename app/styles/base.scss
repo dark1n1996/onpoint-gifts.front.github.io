@@ -1,0 +1,135 @@
+@import '../../node_modules/normalize.css/normalize';
+
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  color: #0c2340;
+  font-family: 'PT Root UI', sans-serif;
+  font-size: 16px;
+}
+
+button {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+svg {
+  pointer-events: none;
+}
+
+.noscroll {
+  overflow: hidden;
+}
+
+.noscroll_2 {
+  overflow: hidden;
+}
+
+.rotate180 {
+  transform: rotate(180deg);
+}
+
+.rotate0 {
+  transform: rotate(0deg) !important;
+}
+
+.displayBlock {
+  display: block !important;
+}
+
+.displayNone {
+  display: none !important;
+}
+
+#onetrust-consent-sdk {
+  font-size: 17px;
+
+  * {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 1440px) {
+  * {
+    font-size: 13.4px;
+  }
+}
+
+@media (max-width: 1200px) {
+  * {
+    font-size: 11px;
+  }
+}
+
+
+@media (max-width: 992px) {
+  * {
+    font-size: 11.5px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  * {
+    font-size: 10.5px;
+  }
+}
+
+
+@media (max-width: 640px) {
+  * {
+    font-size: 9px;
+  }
+}
+
+
+@media (max-width: 550px) {
+  * {
+    font-size: 7.5px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  * {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 430px) {
+  * {
+    font-size: 7.5px;
+  }
+}
+
+@media (max-width: 360px) {
+  * {
+    font-size: 6.5px;
+  }
+}
+
+
+@media (max-width: 320px) {
+  * {
+    font-size: 6px;
+  }
+}
+
