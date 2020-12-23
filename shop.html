@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Onpoint New Year</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-color: #181A20"><canvas id="snow"></canvas>
+    <div class="shop">
+        <div class="shop-header">
+            <div class="shop-header__logo"></div>
+            <div class="shop-header__name"></div><a href="./index.html">
+                <div class="shop-header__out">Выйти</div>
+            </a>
+        </div>
+        <div class="shop__stars-quantity">У тебя <span></span>*</div>
+        <div class="shop-cards"></div>
+        <div class="shop-popup">
+            <div class="shop-popup__wrapper">
+                <div class="shop-popup__text">Выберите способ доставки</div>
+                <form>
+                    <div class="form__wrapper"><span class="form__text">СПОСОБ ДОСТАВКИ</span><select class="form__select" required name="name">
+                            <option>Самовывоз </option>
+                            <option>Доставка на дом</option>
+                        </select></div>
+                    <div class="form__wrapper"><span class="form__text">АДРЕС</span><input class="form__input" type="text" name="address" placeholder="Введите адрес"><span class="form__error"></span></div><button class="form__button">Купить!</button>
+                    <div class="form__server-error"></div>
+                    <div class="form__server-success"> </div>
+                </form>
+                <div class="shop-popup__close"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/shop.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+    <script src="js/snow.js"></script>
+</body>
+
+</html>
